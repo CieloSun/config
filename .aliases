@@ -24,4 +24,4 @@ alias dcst='docker start'
 alias dcsp='docker stop'
 
 alias sshrlp='ssh root@localhost -p'
-
+alias sshsync='cp -r ~/.ssh /mnt/c/Users/Cielo/OneDrive/系统/'
