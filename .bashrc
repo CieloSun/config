@@ -117,6 +117,8 @@ if ! shopt -oq posix; then
 fi
 # customize
 source config/.aliases
+# wsl cannot use z directly
+unsetopt BG_NICE
 . config/z/z.sh
 # zsh
 exec zsh
