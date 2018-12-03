@@ -116,8 +116,8 @@ if ! shopt -oq posix; then
   fi
 fi
 # customize
-source /config/.aliases
-. /config/z/z.sh
+source config/.aliases
+. config/z/z.sh
 # zsh
 exec zsh
 source .zshrc
