@@ -115,11 +115,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-# customize
-source config/.aliases
-# wsl cannot use z directly
-unsetopt BG_NICE
-. config/z/z.sh
 # zsh
 exec zsh
 source .zshrc
