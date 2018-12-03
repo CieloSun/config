@@ -11,7 +11,7 @@ sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install
 cd ~
 git clone --depth 1 https://github.com/rupa/z.git
 # copy my bashrc
-cp ~/config/.bashrc ~/.bashrc
+echo -e "exec zsh\nsource .zshrc">>~/.bashrc
 # add context in zshrc
 echo -e "# customize\nsource ~/config/.aliases\n# wsl cannot use z directly\nunsetopt BG_NICE\n. ~/config/z/z.sh">>~/.zshrc
 
