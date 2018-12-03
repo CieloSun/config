@@ -22,6 +22,9 @@ alias dcrm='docker rm'
 alias dcrmi='docker rmi'
 alias dcst='docker start'
 alias dcsp='docker stop'
-
+# ssh aliases
+alias sshrdp='ssh root@dockerhost -p'
 alias sshrlp='ssh root@localhost -p'
+alias sshrws2p='ssh root@ws2.cielosun.club -p'
+alias sshrwsp='ssh root@ws.cielosun.club -p'
 alias sshsync='cp -r ~/.ssh /mnt/c/Users/Cielo/OneDrive/系统/'
