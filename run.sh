@@ -1,7 +1,7 @@
 #!/bin/bash
 # install apps for this shell
-apt update
-apt install -y wget git zsh
+sudo apt update
+sudo apt install -y wget git zsh
 # config git for me
 git config --global user.email "cielosun@outlook.com"
 git config --global user.name "CieloSun"
